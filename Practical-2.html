@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Jadav - Academic Profile Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f1f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background-color: #ffffff;
+            width: 380px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            text-align: center;
+            padding: 35px 25px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #0f766e;
+            margin-bottom: 18px;
+            box-shadow: 0 4px 12px rgba(15, 118, 110, 0.2);
+        }
+
+        .username {
+            font-size: 26px;
+            color: #0f172a;
+            margin-bottom: 4px;
+            font-weight: 700;
+        }
+
+        .user-dept {
+            font-size: 14px;
+            color: #0f766e;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .info-table tr {
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .info-table tr:last-child {
+            border-bottom: none;
+        }
+
+        .info-table td.label {
+            font-weight: 600;
+            color: #475569;
+            padding: 10px 5px;
+            width: 40%;
+            font-size: 14px;
+        }
+
+        .info-table td.value {
+            color: #1e293b;
+            padding: 10px 5px;
+            width: 60%;
+            font-size: 14px;
+        }
+
+        .action-btn {
+            background-color: #0f766e;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 30px;
+            cursor: pointer;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(15, 118, 110, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .action-btn:hover {
+            background-color: #115e59;
+            transform: translateY(-1px);
+            box-shadow: 0 6px 14px rgba(15, 118, 110, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        
+        <h2 class="username">Parth Jadav</h2>
+        
+        <p class="user-dept">Computer Science & Engineering</p>
+        
+        <table class="info-table">
+            <tr>
+                <td class="label">Course:</td>
+                <td class="value">Diploma CSE (Sem 5)</td>
+            </tr>
+            <tr>
+                <td class="label">Enrollment:</td>
+                <td class="value">249540331013</td>
+            </tr>
+            <tr>
+                <td class="label">Subject:</td>
+                <td class="value">Vibe Coding</td>
+            </tr>
+            <tr>
+                <td class="label">Practical:</td>
+                <td class="value">HTML/CSS via AI Prompts</td>
+            </tr>
+        </table>
+        
+    </div>
+
+</body>
+</html>
