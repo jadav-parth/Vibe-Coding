@@ -6,27 +6,19 @@ To configure Git and GitHub in Visual Studio Code, initialize a Git repository, 
 
 ---
 
-## 🛠️ Prerequisites
+## 📋 Prerequisites
 
 - Visual Studio Code
 - Git CLI
 - GitHub Account
-- Internet Connection
 
 ---
 
-## 📂 Project Setup
+## 🛠️ Step-by-Step Procedure
 
-1. Install Git.
-2. Install Visual Studio Code.
-3. Open the project folder in VS Code.
-4. Open the integrated terminal (`Ctrl + ~`).
+### Step 1: Git Initial Configuration
 
----
-
-## 🚀 Steps Performed
-
-### 1. Configure Git
+Open the VS Code Terminal (`Ctrl + ~`) and configure your Git username and email.
 
 ```bash
 git config --global user.name "Your Name"
@@ -35,7 +27,23 @@ git config --global user.email "your.email@example.com"
 
 ---
 
-### 2. Initialize Git Repository
+### Step 2: Connect VS Code with GitHub
+
+1. Click the **Accounts** icon in the top-right corner of VS Code.
+2. Select **Sign in with GitHub**.
+3. Login using your GitHub account.
+4. Authorize Visual Studio Code to access your GitHub account.
+5. After successful authentication, VS Code will be connected to GitHub.
+
+---
+
+### Step 3: Initialize Local Git Repository
+
+1. Open your project folder in Visual Studio Code.
+2. Open the **Source Control** panel (`Ctrl + Shift + G`).
+3. Click **Initialize Repository**.
+
+Or use the terminal:
 
 ```bash
 git init
@@ -43,40 +51,46 @@ git init
 
 ---
 
-### 3. Add Project Files
+### Step 4: Stage and Commit Changes
+
+1. Modify or create project files.
+2. Click the **+** icon to stage files.
+3. Enter a commit message.
+4. Click **Commit**.
+
+Or use the terminal:
 
 ```bash
 git add .
-```
-
----
-
-### 4. Commit Changes
-
-```bash
 git commit -m "Initial Commit"
 ```
 
 ---
 
-### 5. Connect to GitHub Repository
+### Step 5: Publish / Push Repository to GitHub
+
+1. Click **Publish Branch** in VS Code.
+2. Choose **Public** or **Private** repository.
+3. Wait until the repository is uploaded successfully.
+
+Or use the terminal:
 
 ```bash
 git remote add origin https://github.com/username/repository.git
-```
-
----
-
-### 6. Push Code to GitHub
-
-```bash
 git branch -M main
 git push -u origin main
 ```
 
 ---
 
-### 7. Create and Switch to a New Branch
+### Step 6: Create and Switch to a New Branch
+
+1. Click the branch name from the VS Code Status Bar.
+2. Select **Create New Branch**.
+3. Enter a branch name (Example: `feature-login`).
+4. VS Code will automatically switch to the new branch.
+
+Or use the terminal:
 
 ```bash
 git checkout -b feature-login
@@ -90,25 +104,28 @@ git switch -c feature-login
 
 ---
 
-## 📋 Commands Used
+## 📋 Git Commands Used
 
 | Command | Description |
-|----------|-------------|
-| `git init` | Initialize a local Git repository |
+|---------|-------------|
+| `git config --global user.name` | Set Git username |
+| `git config --global user.email` | Set Git email |
+| `git init` | Initialize repository |
 | `git add .` | Stage all files |
-| `git commit -m "message"` | Commit staged changes |
-| `git remote add origin URL` | Connect local repository to GitHub |
+| `git commit -m "message"` | Commit changes |
+| `git remote add origin URL` | Add remote repository |
 | `git branch -M main` | Rename branch to main |
-| `git push -u origin main` | Push code to GitHub |
-| `git checkout -b branch-name` | Create and switch to a new branch |
-| `git switch -c branch-name` | Alternative command to create a new branch |
+| `git push -u origin main` | Push project to GitHub |
+| `git checkout -b branch-name` | Create and switch branch |
+| `git switch -c branch-name` | Alternative command for new branch |
 
 ---
 
 ## ✅ Result
 
 - Git was configured successfully.
-- Local repository was initialized.
+- VS Code was connected with GitHub.
+- Local Git repository was initialized.
 - Project files were staged and committed.
 - Repository was published to GitHub.
 - A new branch was created and switched successfully.
