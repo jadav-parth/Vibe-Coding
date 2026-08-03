@@ -1,12 +1,6 @@
 <img width="1366" height="768" alt="WhatsApp Image 2026-08-03 at 2 56 15 AM" src="https://github.com/user-attachments/assets/4eb09154-f49a-47d1-819a-6292c33e1a72" />
 # Practical 4: GitHub Integration and Branch Management using VS Code
 
-## 📌 Objective
-
-To configure Git and GitHub in Visual Studio Code, initialize a Git repository, stage and commit changes, push code to GitHub, and create and manage branches.
-
----
-
 ## 📋 Prerequisites
 
 - Visual Studio Code
@@ -132,9 +126,3 @@ git switch -c feature-login
 - A new branch was created and switched successfully.
 
 ---
-
-## 👨‍💻 Author
-
-**Name:** Your Name  
-**Course:** Diploma in Computer Engineering  
-**Practical:** GitHub Integration and Branch Management using VS Code
