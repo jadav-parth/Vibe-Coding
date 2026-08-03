@@ -21,7 +21,7 @@
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 
----
+----
 
 ## Step 2: VS Code ને GitHub એકાઉન્ટ સાથે Connect કરવું
 
