@@ -1,3 +1,4 @@
+<img width="1366" height="768" alt="WhatsApp Image 2026-08-03 at 2 56 15 AM" src="https://github.com/user-attachments/assets/4eb09154-f49a-47d1-819a-6292c33e1a72" />
 # Practical 4: GitHub Integration and Branch Management using VS Code
 
 ## 📌 Objective
